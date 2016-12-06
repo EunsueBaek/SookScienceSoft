@@ -2,10 +2,8 @@
 void checkPhonenum();
 void generatePhonenum();
 
-void viewPhonebook();
-
-void delCheck();
-void delRecord(); 
+void checkDelPhonenum();
+void deletePhonenum(); 
 
 void Phonebook() {
 	int menu;
