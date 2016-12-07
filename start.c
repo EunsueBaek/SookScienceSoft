@@ -7,6 +7,6 @@ void start(){
 }
 
 void exits(){
-	printf("Program will be closed!!");
+	printf("Program will be closed>_<!!");
 	exit(0);
 }
