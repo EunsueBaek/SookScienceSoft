@@ -1,18 +1,11 @@
 ﻿#include <stdio.h>
-
+#include "home.h"
+#include  "Phonebook.h"
 char names[100][20];
 int phones[100][25];
 char inputName[25];
 int inputPhone[25];
 int idx;
-
-void Phonebook();
-void addPhonenum();
-void checkPhonenum(char name[], int phone[]);
-void storePhonenum(char name[], int phone[]);
-void viewPhonebook();
-void delCheck();
-void delPhonenum(); 
 
 void Phonebook() {
 	int menu;
@@ -22,8 +15,8 @@ void Phonebook() {
 		addPhonenum();
 	else if (menu==2)
 		viewPhonebook();
-	//else if (menu==3)
-	//Home();
+	else if (menu==-1)
+		ViewHome(id);
 }//viewMenu
 
 void addPhoneum(void) {
@@ -41,7 +34,7 @@ void checkPhonenum(char name[], int phone[]) {
 		storePhonenum(name, phone);
 }
 
-void storePhonenum(char name[], int phone[]) {
+void generatePhonenum(char name[], int phone[]) {
 }
 
 void viewPhonebook() {
@@ -51,11 +44,11 @@ void viewPhonebook() {
 	}
 }
 
-void delCheck() {
-	delPhonenum();
+void checkDelPhonenum() {
+	deletePhonenum();
 }
 
-void delPhonenum() {
+void deletePhonenum() {
 	//delete record
 	viewPhonebook();
 }
