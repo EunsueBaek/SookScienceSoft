@@ -2,11 +2,11 @@
 #include "start.h"
 
 void start(){
-	printf("WELCOME SCHEDULE MANAGER");
+	printf("WELCOME SCHEDULE MANAGER!");
 	Login();
 }
 
 void exits(){
-	printf("Program will be closed!");
+	printf("Program will be closed!!");
 	exit(0);
 }
