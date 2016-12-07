@@ -10,7 +10,7 @@ void Login(){
 	pswd_user_typed = InputS();
 	scanf("%s",&ID_user_typed);
 	/*사용자 비밀번호랑 맞는지 체크 by(check(ID_user_typed,원래꺼)*/
-	printf("Login Sucssess");
+	printf("Login Sucssess>_<!");
 }
 
 char *InputS(){
