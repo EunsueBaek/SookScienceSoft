@@ -8,13 +8,13 @@
 int ViewHome(char* id){
 	int jobnum;
 	
-	printf(" %s 's 홈 화면\n",id);
+	printf(" %s 's Home View \n",id);
 	printf("\n ------------------- \n",id);
 	printf("\t 1. Account Update \n");
 	printf("\t 2. Phoe book \n");
 	printf("\t 3. Schedule \n");
 	printf("\t 4. Logout \n");
-	printf(" 중 수행할 작업번호를 입력하세요. \n");
+	printf(" Select a Jobnumber! \n");
 	scanf("%d",&jobnum);
 	JobPerformAtHome(jobnum);
 }
