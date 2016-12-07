@@ -1,7 +1,7 @@
 ﻿void addPhonenum();
 void checkPhonenum();
 void generatePhonenum();
-
+void viewPhonebook();
 void checkDelPhonenum();
 void deletePhonenum(); 
 
