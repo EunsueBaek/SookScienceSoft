@@ -11,3 +11,7 @@ void AccUpdate(){
 
 	scanf(" %d ",&jobnum);
 }
+
+void Errmsg(void){
+	printf("바른값을 입력하세요.");
+}
